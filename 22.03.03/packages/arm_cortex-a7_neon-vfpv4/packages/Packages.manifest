@@ -1,0 +1,315 @@
+Package: alsa-lib
+Version: 1.2.6.1-1
+Depends: libc, kmod-sound-core, libpthread, librt
+Source: feeds/packages/libs/alsa-lib
+SourceName: alsa-lib
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1674859097
+Maintainer: Ted Hess <thess@kitschensync.net>, Peter Wagner <tripolar@gmx.at>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 367713
+Filename: alsa-lib_1.2.6.1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 364669
+SHA256sum: cd8a11f33fd4a4d299a8ae8422ed12cdce92dbe9f559601faa98a64855d6d2bd
+Description:  This is the library package for alsa, needed by some userspace programs.
+ You must have enabled the ALSA support in the kernel.
+
+Package: alsa-ucm-conf
+Version: 1.2.6.2-1
+Depends: libc
+Source: feeds/packages/libs/alsa-ucm-conf
+SourceName: alsa-ucm-conf
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1674859097
+Architecture: all
+Installed-Size: 38986
+Filename: alsa-ucm-conf_1.2.6.2-1_all.ipk
+Size: 39515
+SHA256sum: 4a728d78bde574173c6b1acbd8c4aa7010c9dbc248f1966dc16f057ef6e2fe77
+Description:  This is a set of configuration files needed for some ALS utilities like alsactl.
+
+Package: alsa-utils
+Version: 1.2.6-1
+Depends: libc, alsa-lib, alsa-ucm-conf, libncursesw6, libpthread
+Source: feeds/packages/sound/alsa-utils
+SourceName: alsa-utils
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: sound
+SourceDateEpoch: 1674859097
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 135790
+Filename: alsa-utils_1.2.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 134832
+SHA256sum: 6a5ee5e57c282e35dc61c3f3315e8e0e47a6c5d11355a250117952d0d7ee47a4
+Description:  ALSA (Advanced Linux Sound Architecture) utilities
+
+Package: bluez-daemon
+Version: 5.64-1
+Depends: libc, bluez-libs, bluez-utils, bluez-utils-extra, glib2, libncurses6, libreadline8, dbus, libical
+Source: feeds/packages/utils/bluez
+SourceName: bluez-daemon
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1674859097
+CPE-ID: cpe:/a:bluez:bluez
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 597689
+Filename: bluez-daemon_5.64-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 595535
+SHA256sum: e71dcfcb8968e2b1df1b1b2b6055dd33ca73601f939b690d46163bb2236270ae
+Description:  Bluetooth daemon
+
+Package: bluez-libs
+Version: 5.64-1
+Depends: libc, libpthread, kmod-bluetooth
+Source: feeds/packages/utils/bluez
+SourceName: bluez-libs
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1674859097
+CPE-ID: cpe:/a:bluez:bluez
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 65756
+Filename: bluez-libs_5.64-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 65204
+SHA256sum: 59b2ffeebbde505a51a107cd8ceaaec534fcb73d6d7e70d447211cbbfed844c4
+Description:  Bluetooth library
+
+Package: bluez-utils-extra
+Version: 5.64-1
+Depends: libc, bluez-libs, libpthread, librt, glib2, libncurses6, libreadline8, dbus
+Source: feeds/packages/utils/bluez
+SourceName: bluez-utils-extra
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1674859097
+CPE-ID: cpe:/a:bluez:bluez
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 132743
+Filename: bluez-utils-extra_5.64-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 133335
+SHA256sum: d4fd2c3bc6386719fa66d3f055c5f05385328ac79a3bfa6522d3496fd67008f0
+Description:  Bluetooth additional utilities
+
+Package: bluez-utils
+Version: 5.64-1
+Depends: libc, bluez-libs
+Source: feeds/packages/utils/bluez
+SourceName: bluez-utils
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1674859097
+CPE-ID: cpe:/a:bluez:bluez
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 531998
+Filename: bluez-utils_5.64-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 523357
+SHA256sum: c05daaa0034b51d415c37e0e8d8b8f595cba5f4bbeaac80009e0559bf79d82fc
+Description:  Bluetooth utilities
+
+Package: dbus
+Version: 1.13.18-1
+Depends: libc, libexpat, libdbus
+Source: feeds/packages/utils/dbus
+SourceName: dbus
+License: AFL-2.1
+Section: utils
+SourceDateEpoch: 1674859097
+CPE-ID: cpe:/a:freedesktop:dbus
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 104676
+Filename: dbus_1.13.18-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 105206
+SHA256sum: fed225bbceca8613684e5c06b19ce09c424ff88768afb0b94a73839993c71ab2
+Description:  Simple interprocess messaging system (daemon)
+
+Package: glib2
+Version: 2.70.5-1
+Depends: libc, zlib, libpthread, libffi, libattr, libpcre
+Source: feeds/packages/libs/glib2
+SourceName: glib2
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1674859097
+CPE-ID: cpe:/a:gnome:glib
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1087132
+Filename: glib2_2.70.5-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1081851
+SHA256sum: abd9782c8bfd1e50fecbc9b6d9240c630e2dfcb0e8b43f629415d83442d02d73
+Description:  The GLib library of C routines
+
+Package: libattr
+Version: 2.5.1-1
+Depends: libc
+Source: feeds/packages/utils/attr
+SourceName: libattr
+License: LGPL-2.1-or-later
+LicenseFiles: doc/COPYING.LGPL
+Section: libs
+SourceDateEpoch: 1674859097
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 6176
+Filename: libattr_2.5.1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 7010
+SHA256sum: 8d28e29a2d712dfa48fcae167bcba4ed23c5625c310625f84217d97772bd3dbf
+Description:  Extended attributes support
+ This package provides libattr
+
+Package: libcares
+Version: 1.18.1-1
+Depends: libc
+Source: feeds/packages/libs/c-ares
+SourceName: libcares
+License: MIT
+LicenseFiles: LICENSE.md
+Section: libs
+SourceDateEpoch: 1674859097
+CPE-ID: cpe:/a:c-ares_project:c-ares
+Maintainer: Karl Palsson <karlp@etactica.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 33633
+Filename: libcares_1.18.1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 34625
+SHA256sum: 9995d0ad902fc0f268eeff21d50aec2422a9a24b9520f469be0950adb7d25480
+Description:  c-ares is a C library for asynchronous DNS requests (including name resolves)
+ 
+ C89 compatibility, MIT licensed, builds for and runs on POSIX, Windows,
+ Netware, Android and many more operating systems.
+ 
+
+Package: libdbus
+Version: 1.13.18-1
+Depends: libc, libpthread
+Source: feeds/packages/utils/dbus
+SourceName: libdbus
+License: AFL-2.1
+Section: utils
+SourceDateEpoch: 1674859097
+CPE-ID: cpe:/a:freedesktop:dbus
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 109669
+Filename: libdbus_1.13.18-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 109988
+SHA256sum: 962354ab387409162a3c24dbf7985e862a39f447f5c1545c49e6fc6375d77c33
+Description:  Simple interprocess messaging system (library)
+
+Package: libexpat
+Version: 2.4.9-1
+Depends: libc
+Source: feeds/packages/libs/expat
+SourceName: libexpat
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1674859097
+CPE-ID: cpe:/a:libexpat:expat
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 40074
+Filename: libexpat_2.4.9-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 40947
+SHA256sum: d940cd465dbb0d0e5993518d71e879e1d36eff6728b2d3b4fbae1f703480fa8d
+Description:  A fast, non-validating, stream-oriented XML parsing library.
+
+Package: libffi
+Version: 3.4.2-2
+Depends: libc
+Source: feeds/packages/libs/libffi
+SourceName: libffi
+License: MIT
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1674859097
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 15050
+Filename: libffi_3.4.2-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 15982
+SHA256sum: d3d48e4f57cc581aedb855a24762abced14cec9303bd1343982c4b9a0be3a529
+Description:  The libffi library provides a portable, high level programming interface to
+ various calling conventions. This allows a programmer to call any function
+ specified by a call interface description at run-time.
+ 
+ FFI stands for Foreign Function Interface. A foreign function interface is the
+ popular name for the interface that allows code written in one language to call
+ code written in another language. The libffi library really only provides the
+ lowest, machine dependent layer of a fully featured foreign function interface.
+ A layer must exist above libffi that handles type conversions for values passed
+ between the two languages.
+
+Package: libical
+Version: 3.0.9-1
+Depends: libc, libpthread
+Source: feeds/packages/libs/libical
+SourceName: libical
+License: LGPL-2.1-or-later MPL-2.0
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1674859097
+Maintainer: Jose Zapater <jzapater@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 149246
+Filename: libical_3.0.9-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 146668
+SHA256sum: d5aba74f1300546c0d76aec6aaeb85dccd26d7ec35b43fc15947bd49b44432fc
+Description:  Libical is an Open Source implementation of the iCalendar protocols and protocol
+ data units. The iCalendar specification describes how calendar clients can
+ communicate with calendar servers so users can store their calendar data and
+ arrange meetings with other users.
+ Libical implements RFC2445, RFC2446 and some of RFC2447.
+
+Package: libnghttp2-14
+Version: 1.44.0-1
+Depends: libc
+Provides: libnghttp2
+Source: feeds/packages/libs/nghttp2
+SourceName: libnghttp2
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1674859097
+ABIVersion: -14
+Maintainer: Hans Dedecker <dedeckeh@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 56237
+Filename: libnghttp2-14_1.44.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 55365
+SHA256sum: a27809c600b425ef0d2a1b4d5543dc48aa1e110ac78fc4cbd80cf8b2a6b627ff
+Description:  C library implementing the framing layer of the HTTP/2 protocol. It can be used to build a HTTP/2-capable HTTP client or server
+
+Package: libuv1
+Version: 1.41.1-1
+Depends: libc, libpthread, librt
+Provides: libuv
+Source: feeds/packages/libs/libuv
+SourceName: libuv
+License: MIT
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1674859097
+ABIVersion: 1
+CPE-ID: cpe:/a:libuv_project:libuv
+Maintainer: Marko Ratkaj <marko.ratkaj@sartura.hr>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 55069
+Filename: libuv1_1.41.1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 55624
+SHA256sum: 1040b3a2bc6cf2836738a7e816313c44ddc7f5c37b20b74ce3762379e647c996
+Description:  libuv is a multi-platform support library with a focus on asynchronous I/O. It
+ was primarily developed for use by Node.js, but it's also used by Luvit, Julia,
+ pyuv, and others.
+
