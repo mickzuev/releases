@@ -23,28 +23,28 @@ SHA256sum: 2ed49aafbbca0892909e877ba15bb61cf8b42a06d95fb825dcc47985248a9bd3
 Description:  Check if a buffer contains valid UTF-8 encoded text
 
 Package: node-zigbee2mqtt
-Version: 1.30.0-1
+Version: 1.30.1-1
 Depends: libc, node, node-bufferutil, node-utf-8-validate
 License: GPL-3.0
 Section: lang
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 6550338
-Filename: node-zigbee2mqtt_1.30.0-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 6543738
-SHA256sum: 0c769b4e7f333363b0124736f5e88a7f3cb17206f523358074d4bbe7ed403e64
+Installed-Size: 6551342
+Filename: node-zigbee2mqtt_1.30.1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 6544020
+SHA256sum: 5d02f3177534c37151022039bfaf1e158cecc97642c25ba49379de97898a5e99
 Description:  Allows you to use your Zigbee devices without the vendor's bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
 
 Package: node
-Version: v18.13.0-1
+Version: v18.14.0-1
 Depends: libc, libstdcpp6, libopenssl1.1, zlib, libnghttp2-14, libcares, libatomic1
 License: MIT
 Section: lang
 CPE-ID: cpe:/a:nodejs:node.js
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 11289561
-Filename: node_v18.13.0-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 11200666
-SHA256sum: c28b5b0c0ea979ed0ae4a77878a0962f137a4857544c36a05ea52ebf36a9bf73
+Installed-Size: 11319706
+Filename: node_v18.14.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 11231354
+SHA256sum: c247febeee43d5d4cb7717303e5001b3c87325070ca3cbf2226d32f4bad5d477
 Description:  Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses
  an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js'
  package ecosystem, npm, is the largest ecosystem of open source libraries in the world.
