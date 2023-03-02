@@ -16,55 +16,55 @@ SHA256sum: 927bdaacf3e1eaecce637d99e691587923c09166f26af8120c50665a274c6a96
 Description:  bufferutil is what makes ws fast. It provides some utilities to efficiently perform some operations such as masking and unmasking the data payload of WebSocket frames.
 
 Package: node-utf-8-validate
-Version: 6.0.2-1
+Version: 6.0.3-1
 Depends: libc, node
 Source: feeds/node/node-utf-8-validate
 SourceName: node-utf-8-validate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1674860375
+SourceDateEpoch: 1677465028
 Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 12529
-Filename: node-utf-8-validate_6.0.2-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 13386
-SHA256sum: 2ed49aafbbca0892909e877ba15bb61cf8b42a06d95fb825dcc47985248a9bd3
+Installed-Size: 12523
+Filename: node-utf-8-validate_6.0.3-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 13374
+SHA256sum: 55fe455101b3418eea5a9ca53752e9a7950d3fe45340bd9b809a689d1d7fbfd1
 Description:  Check if a buffer contains valid UTF-8 encoded text
 
 Package: node-zigbee2mqtt
-Version: 1.30.1-1
+Version: 1.30.2-1
 Depends: libc, node, node-bufferutil, node-utf-8-validate
 Source: feeds/node/node-zigbee2mqtt
 SourceName: node-zigbee2mqtt
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1675998653
+SourceDateEpoch: 1677722488
 Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 6551342
-Filename: node-zigbee2mqtt_1.30.1-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 6544020
-SHA256sum: 5d02f3177534c37151022039bfaf1e158cecc97642c25ba49379de97898a5e99
+Installed-Size: 6562296
+Filename: node-zigbee2mqtt_1.30.2-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 6556341
+SHA256sum: 89f4032a887d7288c139839f59791f2b55e3ade6ff921297fa5fac12755ff454
 Description:  Allows you to use your Zigbee devices without the vendor's bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
 
 Package: node
-Version: v18.14.0-1
+Version: v18.14.2-1
 Depends: libc, libstdcpp6, libopenssl1.1, zlib, libnghttp2-14, libcares, libatomic1
 Source: feeds/node/node
 SourceName: node
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1675491783
+SourceDateEpoch: 1677020981
 CPE-ID: cpe:/a:nodejs:node.js
 Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 11319706
-Filename: node_v18.14.0-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 11231354
-SHA256sum: c247febeee43d5d4cb7717303e5001b3c87325070ca3cbf2226d32f4bad5d477
+Installed-Size: 11301719
+Filename: node_v18.14.2-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 11212920
+SHA256sum: b22b3d1e1b83bd4fbab29a477e8e64d88b069dfafd5b76b51097edd840d48061
 Description:  Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses
  an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js'
  package ecosystem, npm, is the largest ecosystem of open source libraries in the world.
