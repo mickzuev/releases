@@ -23,15 +23,15 @@ SHA256sum: e8ac489556526d342f6773da70e235ba5863fe0ea9cdb89d788d06fab60effb6
 Description:  Check if a buffer contains valid UTF-8 encoded text
 
 Package: node-zigbee2mqtt
-Version: 1.31.0-1
+Version: 1.31.2-1
 Depends: libc, node, node-bufferutil, node-utf-8-validate
 License: GPL-3.0
 Section: lang
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 7086580
-Filename: node-zigbee2mqtt_1.31.0-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 7072495
-SHA256sum: ae8a367de878986ae9466b114a8859e14274caffa9a8d7c3f5eb6edfc0737961
+Installed-Size: 7086471
+Filename: node-zigbee2mqtt_1.31.2-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 7071958
+SHA256sum: 31c30c90807e1fe00f5a3671e73f45611a91addd859dac12853ec21ce47cde6f
 Description:  Allows you to use your Zigbee devices without the vendor's bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
 
 Package: node
