@@ -33,38 +33,38 @@ SHA256sum: e8ac489556526d342f6773da70e235ba5863fe0ea9cdb89d788d06fab60effb6
 Description:  Check if a buffer contains valid UTF-8 encoded text
 
 Package: node-zigbee2mqtt
-Version: 1.31.2-1
+Version: 1.32.1-2
 Depends: libc, node, node-bufferutil, node-utf-8-validate
 Source: feeds/node/node-zigbee2mqtt
 SourceName: node-zigbee2mqtt
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1686185375
+SourceDateEpoch: 1689223743
 Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 7086471
-Filename: node-zigbee2mqtt_1.31.2-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 7071958
-SHA256sum: 31c30c90807e1fe00f5a3671e73f45611a91addd859dac12853ec21ce47cde6f
+Installed-Size: 6979131
+Filename: node-zigbee2mqtt_1.32.1-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 6969505
+SHA256sum: 9e3a7c6856c8e360d551e1f7ecd74d7312932d2c7c448ab92f7b85b5d7f53fb2
 Description:  Allows you to use your Zigbee devices without the vendor's bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
 
 Package: node
-Version: v18.16.0-1
+Version: v18.17.0-1
 Depends: libc, libstdcpp6, libopenssl1.1, zlib, libnghttp2-14, libcares, libatomic1
 Source: feeds/node/node
 SourceName: node
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1684287111
+SourceDateEpoch: 1689912081
 CPE-ID: cpe:/a:nodejs:node.js
 Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 11336674
-Filename: node_v18.16.0-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 11247047
-SHA256sum: e3328783c4accc51a9220b13050ff38298d3079a4b0fb9841b19b333f450e403
+Installed-Size: 11658692
+Filename: node_v18.17.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 11557899
+SHA256sum: 4fdeec850f756a0e916cb9356f1ad4de48206d786f0b53511da5edb034063616
 Description:  Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses
  an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js'
  package ecosystem, npm, is the largest ecosystem of open source libraries in the world.
