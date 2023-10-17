@@ -9,10 +9,10 @@ Section: lang
 SourceDateEpoch: 1683521265
 Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 9244
+Installed-Size: 9280
 Filename: node-bufferutil_4.0.7-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 10164
-SHA256sum: b0f412f952dc753d6a0ec1ab2465315fc4aaf856fc07178ffa5600ade0a01a0f
+Size: 10213
+SHA256sum: 21866ae33fd315bd82b7757e9af81eca469dca7462745190fe7e118797846af2
 Description:  bufferutil is what makes ws fast. It provides some utilities to efficiently perform some operations such as masking and unmasking the data payload of WebSocket frames.
 
 Package: node-utf-8-validate
@@ -26,45 +26,45 @@ Section: lang
 SourceDateEpoch: 1683521265
 Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 12526
+Installed-Size: 12547
 Filename: node-utf-8-validate_6.0.3-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 13380
-SHA256sum: e8ac489556526d342f6773da70e235ba5863fe0ea9cdb89d788d06fab60effb6
+Size: 13401
+SHA256sum: b0116e37e126533a9e26326344afaf1cd36068fefcb7d6b888c7fb7fdd5bd7d3
 Description:  Check if a buffer contains valid UTF-8 encoded text
 
 Package: node-zigbee2mqtt
-Version: 1.33.0-1
+Version: 1.33.1-1
 Depends: libc, node, node-bufferutil, node-utf-8-validate
 Source: feeds/node/node-zigbee2mqtt
 SourceName: node-zigbee2mqtt
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1693797790
+SourceDateEpoch: 1697185113
 Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 7483250
-Filename: node-zigbee2mqtt_1.33.0-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 7469273
-SHA256sum: d33e89c64c0075da89e79cedb96cbd66e27325331350360f13d177b72a22bbe3
+Installed-Size: 8229102
+Filename: node-zigbee2mqtt_1.33.1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 8214868
+SHA256sum: a189fd89125d95027bba1a5501c5f159b06b4dce5e6fa574fe9a94e4c6c29b44
 Description:  Allows you to use your Zigbee devices without the vendor's bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
 
 Package: node
-Version: v18.18.0-1
+Version: v18.18.2-1
 Depends: libc, libstdcpp6, libopenssl1.1, zlib, libnghttp2-14, libcares, libatomic1
 Source: feeds/node/node
 SourceName: node
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1695984714
+SourceDateEpoch: 1697266593
 CPE-ID: cpe:/a:nodejs:node.js
 Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 11676877
-Filename: node_v18.18.0-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 11576025
-SHA256sum: 0fc3c135ed395af23dab0788f45384805346190eb4478848d20b1fdbc784cde0
+Installed-Size: 11686048
+Filename: node_v18.18.2-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 11585034
+SHA256sum: cc6d6eefb015d0e80a5b5ffb342caf7d7d46fa08666d2415dc9b33a72cf52a1b
 Description:  Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses
  an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js'
  package ecosystem, npm, is the largest ecosystem of open source libraries in the world.
